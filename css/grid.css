@@ -146,4 +146,90 @@ a, h1, h2, h3, h4, h5, h6, ul, p {
 	margin-top: 20px;
 }
 
+/*---------------------------------------------*/
+/*dưới about us*/
+.line {
+	height: 2px;
+	background-color: #d7d7d7;
+	clear: both;
+}
 
+.hihi-icon {
+	
+}
+
+.hihi-icon i {
+	font-size: 40px;
+	color: #76daff;
+	margin: 20px auto;
+}
+
+.hihi-content .title {
+	font-size: 20px;
+	font-family: raleway-b;
+	letter-spacing: 2px;
+	padding: 0;
+	margin: 20px auto;
+}
+
+.hihi-content p {
+	line-height: 30px;
+}
+
+/*------------------------------------------------------*/
+/*Mục what we do*/
+.bg-wwd {
+	background-color: #1c1c1c;
+	min-height: 50px;
+	margin-top: 50px;
+	float: left;
+}
+
+.clear {
+	clear: both;
+}
+
+.bg-wwd .title {
+	color: white;
+}
+
+.wwd-icon {
+	width: 124px;
+	height: 124px;
+	margin: 15px auto;
+	border: 2px solid white;
+	border-radius: 50%;
+}
+
+/*canh cho icon shield vào giữa và chỉnh màu*/
+.wwd-icon i {
+	line-height: 124px;
+	font-size: 40px;
+	color: white;
+}
+
+.wwd-content .title {
+	padding: 0;
+	color: white;
+	font-size: 20px;
+}
+
+.wwd-content p {
+	color: #777777;
+	font-size: 15px;
+	margin: 20px 0;
+}
+
+/*canh giữa cho tất cả phần tử nằm trong wwd-item*/
+.wwd-item {
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+.wwd-item:hover .wwd-icon i {
+	color: #76daff;
+}
+
+.wwd-item:hover .wwd-icon {
+	border-color: #76daff;
+}
