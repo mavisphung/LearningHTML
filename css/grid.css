@@ -54,3 +54,29 @@
 	background-color: #000000;
 	margin-bottom: 15px;
 }
+
+.nav ul {
+	float: right;
+	margin: 27px 0;
+}
+
+.nav ul li {
+	list-style: none;
+	float: left;
+}
+
+.nav ul li a {
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #272727;
+	padding: 0 15px;
+	font-size: 12px;
+	letter-spacing: 2px;
+	display: block;
+	line-height: 34px;
+}
+
+.nav ul li a:hover {
+	background-color: #ff3c41;
+	color: white;
+}
