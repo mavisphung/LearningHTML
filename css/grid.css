@@ -155,7 +155,7 @@ a, h1, h2, h3, h4, h5, h6, ul, p {
 }
 
 .hihi-icon {
-	
+	text-align: center;
 }
 
 .hihi-icon i {
@@ -232,4 +232,41 @@ a, h1, h2, h3, h4, h5, h6, ul, p {
 
 .wwd-item:hover .wwd-icon {
 	border-color: #76daff;
+}
+
+/*--------------------------------------------------------
+Projects section*/
+.pr .pr-image img {
+	width: 100%;
+}
+
+.pr-title {
+	padding: 10px;
+	box-sizing: border-box;
+	margin-top: -7px;
+}
+
+.pr-title h3 {
+	font-size: 18px;
+	font-family: raleway-b;
+	color: #292929;
+	letter-spacing: 2px;
+}
+
+.pr-title p {
+	color: #8d8d8d;
+	letter-spacing: 2px;
+	padding-top: 10px;
+}
+
+.pr:hover .pr-title {
+	background-color: #ff3c41;
+}
+
+.pr:hover .pr-title p {
+	color: white;
+}
+
+.pr {
+	margin-bottom: 15px;
 }
