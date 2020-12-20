@@ -48,7 +48,7 @@ a, h1, h2, h3, h4, h5, h6, ul, ol, p, body {
 }
 
 [class*="col-"] {
-	padding: 0 15px;
+	padding: 0 0.75rem;
 	box-sizing: border-box;
 }
 
@@ -83,20 +83,4 @@ a, h1, h2, h3, h4, h5, h6, ul, ol, p, body {
 	text-align: center;
 }
 /*-----------------------------------------------------------------------*/
-/*Bài tập position và transition*/
-.item {
-	float: left;
-	margin-bottom: 15px;
-	position: relative;
-}
 
-.title {
-	background-color: rgba(95,95,95,0.5);
-	line-height: 50px;
-	color: white;
-}
-
-.item:hover .title {
-	transform: translateY(-55px);
-	transition: all 1s linear;
-}
