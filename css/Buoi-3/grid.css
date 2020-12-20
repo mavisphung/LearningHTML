@@ -1,0 +1,102 @@
+@charset "utf-8";
+/* CSS Document */
+
+a, h1, h2, h3, h4, h5, h6, ul, ol, p, body {
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	margin: 0 auto;
+	width: 1140px;
+}
+.col-1 {
+	width: 8.33%;
+}
+.col-2 {
+	width: 16.66%;
+}
+.col-3 {
+	width: 24.99%;
+}
+.col-4 {
+	width: 33.32%;
+}
+.col-5 {
+	width: 41.65%;
+}
+.col-6 {
+	width: 49.98%;
+}
+.col-7 {
+	width: 58.31%;
+}
+.col-8 {
+	width: 66.64%;
+}
+.col-9 {
+	width: 74.97%;
+}
+.col-10 {
+	width: 83.33%;
+}
+.col-11 {
+	width: 91.63%;
+}
+.col-12 {
+	width: 100%;
+}
+
+[class*="col-"] {
+	padding: 0 15px;
+	box-sizing: border-box;
+}
+
+.display-flex {
+	display: flex;
+}
+
+.float-l {
+	float: left;
+}
+.float-r {
+	float: right;
+}
+
+.flex-nowrap {
+	flex-wrap: nowrap;
+}
+
+.flex-wrap {
+	flex-wrap: wrap;
+}
+
+.text-left {
+	text-align: left;
+}
+
+.text-right {
+	text-align: right;
+}
+
+.text-center {
+	text-align: center;
+}
+/*-----------------------------------------------------------------------*/
+/*Bài tập position và transition*/
+.item {
+	float: left;
+	margin-bottom: 15px;
+	position: relative;
+}
+
+.title {
+	background-color: rgba(95,95,95,0.5);
+	line-height: 50px;
+	color: white;
+}
+
+.item:hover .title {
+	transform: translateY(-55px);
+	transition: all 1s linear;
+}
