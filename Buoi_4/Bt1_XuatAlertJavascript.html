@@ -6,9 +6,14 @@
 </head>
 
 <body>
-	
+	<input type="text" placeholder="Tên" id="ten">
+	<button onClick="ThongBao()">Click</button>
 	<script>
-		alert("Xin chao");
+//		alert("Xin chao");
+		function ThongBao() {
+			var hoten = document.getElementById('ten').value; //valua() là sai
+			alert("Xin chào " + hoten);
+		}
 	</script>
 </body>
 </html>
