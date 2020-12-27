@@ -12,7 +12,7 @@ div {
 
 .h1{
 	background-color: red;
-	border: 2px dashed green;
+	border: 2px solid green;
 	box-sizing: border-box;
 }
 
